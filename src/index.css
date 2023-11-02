@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+  
+}
+@font-face {
+  font-family: newfont;
+  src: url("font/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf");
+}
+
+
+body{
+  font-family: newfont;
+}
+.shadow-b{
+  box-shadow: 2px 2px 2px #dcdcdc82;
+}
